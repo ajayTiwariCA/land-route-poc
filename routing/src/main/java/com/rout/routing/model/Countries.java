@@ -5,9 +5,11 @@ import java.util.Objects;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 @NoArgsConstructor
 @Data
+@ToString
 public class Countries {
 	private String name;
 	private String cca3;

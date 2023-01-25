@@ -1,0 +1,61 @@
+[
+	{
+		"name": "Czechia",
+		"cca3": "CZE",
+		"region": "Europe",
+		"borders": [
+			"AUT",
+			"DEU",
+			"POL",
+			"SVK"
+		]
+	},
+	{
+		"name": 
+			 "Austria",
+			"cca3": "AUT",
+			"region": "Europe",
+			"borders": [
+				"CZE",
+				"DEU",
+				"HUN",
+				"ITA",
+				"LIE",
+				"SVK",
+				"SVN",
+				"CHE"
+			]
+		},
+		{
+			"name":  "Italy",
+				"cca3": "ITA",
+				"region": "Europe",
+				"borders": [
+					"AUT",
+					"FRA",
+					"SMR",
+					"SVN",
+					"CHE",
+					"VAT"
+				]
+			},
+			{
+				"name": "Afghanistan",
+				"cca3": "AFG",
+				"region": "Asia",
+				"borders": [
+					"IRN",
+					"PAK",
+					"TKM",
+					"UZB",
+					"TJK",
+					"CHN"
+				]
+			},
+			{
+				"name": "Anguilla",
+				"cca3": "AIA",
+				"region": "Americas",
+				"borders": []
+			}
+		]

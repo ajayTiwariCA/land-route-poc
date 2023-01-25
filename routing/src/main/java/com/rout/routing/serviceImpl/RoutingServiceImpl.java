@@ -1,5 +1,6 @@
 package com.rout.routing.serviceImpl;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.function.Function;
@@ -22,7 +23,7 @@ public class RoutingServiceImpl implements RoutingService {
 	@Override
 	public List<String> route(String origin, String destination) {
 
-		var countries = countryService.getListCountry().stream()
+		var countries = Arrays.stream(countryService.getListCountry())
 				.collect(Collectors.toMap(Countries::getCca3, Function.identity()));
 
 		var originCountry = Optional.ofNullable(countries.get(origin))
